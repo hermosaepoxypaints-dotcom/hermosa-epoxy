@@ -12,7 +12,7 @@ Responsive React and Vite product catalogue with WhatsApp-first enquiries.
 - Edit src/config.js and set WHATSAPP_NUMBER to the official business number in international digits-only format (Kenya example: 2547XXXXXXXX). The site intentionally does not invent a contact number.
 - Set BUSINESS_EMAIL if email enquiries are required.
 - Replace the starter catalogue in src/products.js with verified product names, images, pack sizes, specifications and current prices. Current entries are illustrative categories, not confirmed stock or product claims.
-- Review copy, imagery, legal/privacy requirements and contact details before publishing.
+- Business location is configured as Konza City, Machakos, Kenya. Review copy, imagery, legal/privacy requirements and contact details before publishing.
 - No online payment or stock-management integration is included.
 
 ## Deploy
