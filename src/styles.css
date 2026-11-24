@@ -191,3 +191,14 @@ footer>span{order:3;width:100%}
 .hero-controls .hero-dot.active{background:var(--gold);box-shadow:0 0 0 4px rgba(198,165,108,.17)}
 .hero-carousel .hero-image>img{transition:opacity .35s,transform 1s}
 @media(max-width:680px){.hero-controls{margin-top:28px}.hero-carousel .hero-image{min-height:360px}}
+
+/* Product pricing and cart totals */
+.product-price{font:700 15px var(--sans);color:#9a7845;margin:-1px 0 10px;letter-spacing:.15px}
+.product-info p{min-height:55px}
+.enquire-link{color:var(--navy)}
+.order-item-name{display:flex;flex-direction:column;gap:5px;line-height:1.45}
+.order-item-name small{font-size:8px;color:#8a744f}
+.order-total{display:flex;justify-content:space-between;align-items:center;padding:16px 0 5px;margin-top:4px;border-bottom:1px solid #e7e5df;font-size:10px;color:#65707a}
+.order-total strong{font:700 16px var(--sans);color:var(--navy)}
+.quote-note{font-size:9px;line-height:1.6;color:#8b7046;margin:9px 0 0}
+@media(max-width:680px){.product-price{font-size:13px}.order-item-name{max-width:58%}}
