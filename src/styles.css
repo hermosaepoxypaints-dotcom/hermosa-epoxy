@@ -227,3 +227,5 @@ footer>span{order:3;width:100%}
 @keyframes graniteScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(max-width:680px){.granite-colours{padding:75px 0 55px}.granite-head{padding:0 7%;display:block;margin-bottom:25px}.granite-head>p{margin-top:17px}.granite-card{width:145px}.granite-swatch{height:220px}.granite-track{gap:12px;animation-duration:48s}.granite-foot{margin:22px 7% 0;flex-direction:column;line-height:1.5}}
 @media(prefers-reduced-motion:reduce){.granite-track{animation:none}}
+
+.hero-slide-title{font:500 clamp(30px,3.2vw,43px)/1.05 var(--serif);letter-spacing:-.5px;color:#fff;margin:18px 0 0;max-width:470px}.hero-slide-title em{color:var(--gold-light);font-style:italic}@media(max-width:680px){.hero-slide-title{font-size:34px;margin-top:15px}}
