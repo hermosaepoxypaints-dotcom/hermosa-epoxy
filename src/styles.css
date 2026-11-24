@@ -245,3 +245,31 @@ footer .brand-logo{width:142px;height:46px}
 .hero-carousel .hero-proof{margin-top:auto}
 @media(max-width:950px){.hero-carousel .hero-copy{padding-left:6%;padding-right:6%}}
 @media(max-width:680px){.hero.hero-carousel{min-height:600px}.hero-carousel .hero-copy{min-height:600px;padding:65px 7% 38px}.hero-carousel .hero-bg:after{background:linear-gradient(90deg,rgba(10,20,32,.91),rgba(10,20,32,.62)),linear-gradient(0deg,rgba(10,20,32,.4),transparent 70%)}.hero-carousel .hero-proof{margin-top:auto;padding-top:40px}}
+
+/* Warm champagne and sandstone colour refresh */
+:root{--paper:#e9dfd1;--white:#f4ede3;--line:#d4c5b1}
+body{background:#e9dfd1}
+.header{background:rgba(239,230,217,.97);border-bottom-color:#d9cbb9}
+.nav a,.header-cta{color:#293747}
+.intro-strip{background:#e2d5c3;border-bottom-color:#cdbda8}
+.section.products-section{background:#eee5d8}
+.product-card{background:#f7f1e8;border-color:#ded1bf}
+.product-photo{background:#d9cbbb}
+.product-tag{background:rgba(245,238,228,.96)}
+.searchbox{background:#f7f1e8;border-color:#d8c9b5}
+.searchbox input{background:transparent;color:var(--navy)}
+.filter{border-color:#cdbda8;color:#515b65}
+.filter:not(.active):hover{background:#dfd1be;border-color:#c6b397;color:var(--navy)}
+.catalog-bottom{border-top-color:#d2c2ae}
+.solutions{background:#d8c9b6}
+.solution-list,.solution-list>div{border-color:#c4b39e}
+.about{background:#e5d8c7}
+.about-points{border-top-color:#cfc0ac}
+.granite-colours{background:#eee5d8}
+.granite-card{background:#f7f1e8;border-color:#ded1bf}
+.granite-foot{border-top-color:#d2c2ae}
+.contact-panel{background:#eee5d8}
+.enquiry-dock,.order-panel{background:#f7f1e8;border-color:#ded1bf}
+.order-fields input,.order-fields textarea{background:#fbf7f0;border-color:#d8c9b5}
+.quantity button{background:#eee5d8;border-color:#d4c5b1}
+@media(max-width:680px){.nav{background:#eee5d8}.filter:not(.active){background:#f1e8dc}}
