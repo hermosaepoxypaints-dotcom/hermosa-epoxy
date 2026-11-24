@@ -233,3 +233,15 @@ footer>span{order:3;width:100%}
 .brand-logo{display:block;width:150px;height:48px;object-fit:contain;object-position:left center}
 footer .brand-logo{width:142px;height:46px}
 @media(max-width:600px){.brand-logo{width:124px;height:42px}footer .brand-logo{width:124px}}
+
+
+/* Hero slideshow as a full-width background behind the hero copy */
+.hero.hero-carousel{position:relative;display:block;min-height:650px;padding:0;overflow:hidden;isolation:isolate;background:var(--navy)}
+.hero-carousel .hero-bg{position:absolute;inset:0;z-index:-1;overflow:hidden;background:var(--navy)}
+.hero-carousel .hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,20,32,.94) 0%,rgba(10,20,32,.82) 43%,rgba(10,20,32,.35) 100%),linear-gradient(0deg,rgba(10,20,32,.28),transparent 55%)}
+.hero-carousel .hero-bg img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;filter:brightness(.88);animation:heroFade .6s ease both}
+.hero-carousel .hero-copy{position:relative;z-index:1;width:100%;max-width:850px;min-height:650px;padding:100px 9% 55px;display:flex;flex-direction:column;align-items:flex-start}
+.hero-carousel .hero h1{max-width:700px}
+.hero-carousel .hero-proof{margin-top:auto}
+@media(max-width:950px){.hero-carousel .hero-copy{padding-left:6%;padding-right:6%}}
+@media(max-width:680px){.hero.hero-carousel{min-height:600px}.hero-carousel .hero-copy{min-height:600px;padding:65px 7% 38px}.hero-carousel .hero-bg:after{background:linear-gradient(90deg,rgba(10,20,32,.91),rgba(10,20,32,.62)),linear-gradient(0deg,rgba(10,20,32,.4),transparent 70%)}.hero-carousel .hero-proof{margin-top:auto;padding-top:40px}}
